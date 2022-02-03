@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- custom css link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- animated link -->
+
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- fa fa cdn icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+</head>
+<body>
+
+	<!-- start navbar coding -->
+
+     <div class="container-fluid top-nav">
+        <nav class="navbar navbar-expand-md  container">
+
+        <a href="#" class="navbar-brand" style="overflow:hidden;">
+          <img src="img/vlo.png" class="img-fluid logo animated slideInLeft" alt="logo" width="40">
+         Vijay Gupta
+       </a>
+        <i class="fa fa-bars navbar-toggler text-white" data-toggle="collapse" data-target="#my_page" style="font-size:30px;"></i>
+        <div class="collapse navbar-collapse" id="my_page">
+        <ul class="navbar-nav mx-auto top-menu" role="tablist">
+         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
+          <li class="nav-item"><a href="skill.html" class="nav-link">Skills</a></li>
+          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+        <!-- social link icon -->
+        <div class="d-none d-md-block">
+          <span class="text-dark social_icon">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square pr-3 icon" title="facebook"></i></a>
+          <a href="https://twitter.com/VijayGu13037601" target="_blank"><i class="fa fa-twitter-square pr-3 icon" title="twitter"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram pr-3 icon" title="instagram"></i></a>
+          <a href="https://github.com/" target="_blank"><i class="fa fa-github-square pr-3 icon" title="github"></i></a>
+        </span>
+        </div>
+      </nav>
+     </div>
+
+    <!-- close navbar coding -->
+
+<!-- start section coding -->
+<div class="container text-center">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="about-me">
+					<h1 class="wow slideInDown">Contact Me</h1>
+					<div class="divider mx-auto"></div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	<div class="container mb-3" style="margin-top: 50px;" id="contme">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="social-info wow slideInDown">
+					<div class="location-box d-flex">
+						<div class="social-icon mx-auto">
+							<div class="icon-box mx-auto">
+								<i class="fa fa-map-marker"></i>
+							</div>
+						</div>
+						<div class="social-text mx-auto">
+							<h1>Location:</h1>
+							<p>Mangalpur Kalan, Delhi-110083</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="social-info wow slideInLeft">
+					<div class="location-box d-flex">
+						<div class="social-icon mx-auto">
+							<div class="icon-box mx-auto">
+								<i class="fa fa-envelope-o" style="font-size: 17px; margin-top: 3px;"></i>
+							</div>
+						</div>
+						<div class="social-text mx-auto">
+							<h1>Email:</h1>
+							<p>vijayguptasibaiya123@gmail.com</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="social-info wow slideInUp">
+					<div class="location-box d-flex">
+						<div class="social-icon mx-auto">
+							<div class="icon-box mx-auto">
+								<i class="fa fa-mobile" style="margin-left: 2px;"></i>
+							</div>
+						</div>
+						<div class="social-text mx-auto">
+							<h1>Call:</h1>
+							<p>+91-825-057-0236</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="form-validation">
+					<form action="#" onsubmit="return validation()">
+
+					<div class="row">
+						<div class="col-md-6 mt-3 wow slideInUp">
+							<input type="text" name="name" placeholder="Your Name" class="form-control" autocomplete="off" id="yourname"><br>
+							<span id="username"></span>
+						</div>
+						<div class="col-md-6 mt-3 wow slideInUp">
+							<input type="text" name="Email" placeholder="Your Email" class="form-control" autocomplete="off" id="email">
+							<span id="emailtext"></span>
+						</div>
+					</div> 
+
+					<div class="row mt-4">
+						<div class="col-md-12 wow slideInUp">
+							<input type="text" name="Subject" placeholder="Subject" class="form-control" autocomplete="off" id="subject">
+							<span id="subjecttext"></span>
+						</div>
+					</div>
+
+					<div class="row mt-4">
+						<div class="col-md-12 wow slideInUp">
+							<textarea type="text" name="message" placeholder="Message" class="form-control" autocomplete="off" id="message"></textarea>
+							<span id="messagetext"></span>
+						</div>
+					</div>
+
+					<input type="submit" name="submit" value="Submit" class="btn btn-success mt-4 wow slideInUp" style="font-family: 'Oswald', sans-serif;">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container mb-5">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="goggle-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.702465496337!2d77.09160571440887!3d28.69854568784232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04039df6ee07%3A0xd65937b38a291368!2sMangolpur%20Khurd%20Village%2C%20Mangolpuri%20S%20Block%2C%20Delhi%2C%20110083!5e0!3m2!1sen!2sin!4v1632737992824!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- close section coding -->
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+
+  </script>
+</body>
+</html>
